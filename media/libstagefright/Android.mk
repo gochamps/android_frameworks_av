@@ -8,7 +8,7 @@ ifeq ($(BOARD_USES_ALSA_AUDIO),true)
 endif
 
 include frameworks/av/media/libstagefright/codecs/common/Config.mk
-include $(TOP)/external/cedarx/Config.mk
+include $(TOP)/frameworks/av/media/CedarX-Projects/Config.mk
 
 ifeq ($(TARGET_SOC),exynos4210)
 LOCAL_CFLAGS += -DCONFIG_MFC_FPS
@@ -137,7 +137,7 @@ LOCAL_STATIC_LIBRARIES := \
         libFLAC \
 
 LOCAL_LDFLAGS += \
-	$(TOP)/external/cedarx/CedarAndroidLib/LIB_JB_F23/libstagefright_httplive_opt.a
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarAndroidLib/LIB_JB_F23/libstagefright_httplive_opt.a
 
 ifneq ($(TARGET_BUILD_PDK), true)
 LOCAL_STATIC_LIBRARIES += \

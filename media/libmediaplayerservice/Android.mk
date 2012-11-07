@@ -46,12 +46,12 @@ LOCAL_STATIC_LIBRARIES := \
 
 LOCAL_C_INCLUDES :=                                               \
 	$(call include-path-for, graphics corecg)                       \
-	$(TOP)/external/cedarx/CedarXAndroid/IceCreamSandwich \
-	$(TOP)/external/cedarx/CedarX/include/include_audio \
-	$(TOP)/external/cedarx/CedarX/include/include_cedarv \
-	$(TOP)/external/cedarx/CedarX/include \
-	$(TOP)/external/cedarx/CedarA \
-	$(TOP)/external/cedarx/CedarA/include \
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarXAndroid/IceCreamSandwich \
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarX/include/include_audio \
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarX/include/include_cedarv \
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarX/include \
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarA \
+	$(TOP)/frameworks/av/media/CedarX-Projects/CedarA/include \
 	$(TOP)/frameworks/av/media/libstagefright/include               \
 	$(TOP)/frameworks/av/media/libstagefright/rtsp                  \
 	$(TOP)/frameworks/native/include/media/openmax                  \
